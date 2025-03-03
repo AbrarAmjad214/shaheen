@@ -1,6 +1,6 @@
 {
     "rewrites": [
-      { "source": "/:path*", "destination": "/index.html" }
+      { "source": "/(.*).php", "destination": "/$1.html" }
     ]
   }
   
